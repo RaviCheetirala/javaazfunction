@@ -1,0 +1,278 @@
+    1  ls
+    2  touch newfile
+    3  ls
+    4  mkdir scripts
+    5  cd scripts/
+    6  ls
+    7  code newscript.sh
+    8  ls
+    9  unzip Replenishment_Galaxy_Batch.zip 
+   10  clear
+   11  ls -lrt
+   12  cd Replenishment_Galaxy_Batch/
+   13  clear
+   14  ls
+   15  cd WOWArticleLocBatch
+   16  clear
+   17  ls
+   18  clear
+   19  az repos update --repository WOWArticleLocBatch --default-branch dvlp  --org RaviAZDevOps --project ReplenishmentSample
+   20  az extension list-available --output table
+   21  clear
+   22  az extension add --name azure-devops
+   23  az repos update --repository WOWArticleLocBatch --default-branch dvlp  --org RaviAZDevOps --project ReplenishmentSample
+   24  az devops configure --defaults organization=https://dev.azure.com/RaviAZDevOps
+   25  az extension add --name azure-devops
+   26  az repos update --repository WOWArticleLocBatch --default-branch dvlp  --project ReplenishmentSample
+   27  export AZURE_DEVOPS_EXT_PAT=crsdpwm23nlkys6xzczzazrksbiy2n3vx6bg67riqsj2a3446jgq
+   28  az devops login --organization https://dev.azure.com/RaviAZDevOps
+   29  az login
+   30  clear
+   31  az repos create --repository WOWArticleLocBatch --default-branch dvlp  --project ReplenishmentSample
+   32  clear
+   33  az repos create --name WOWArticleLocBatch --project ReplenishmentSample
+   34  git remote add origin https://RaviAZDevOps@dev.azure.com/RaviAZDevOps/ReplenishmentSample/_git/WOWArticleLocBatch
+   35  git init
+   36  git remote add origin https://RaviAZDevOps@dev.azure.com/RaviAZDevOps/ReplenishmentSample/_git/WOWArticleLocBatch
+   37  git add .
+   38  git push -u origin --all
+   39  git commit -m "Base code"
+   40  clear
+   41  ls
+   42  cd
+   43  clear
+   44  ls
+   45  git-credential-manager-2.0.4.jar install
+   46  java -jar /home/example/git-credential-manager/git-credential-manager-2.0.4.jar install
+   47  java -jar git-credential-manager-2.0.4.jar
+   48  clear
+   49  java -jar git-credential-manager-2.0.4.jar install
+   50  git config --global --get credential.helper git-credential-manager
+   51  git add .
+   52  cd Replenishment_Galaxy_Batch/
+   53  ls
+   54  cd WOWArticleBatch
+   55  cd WOWArticleLocBatch
+   56  clear
+   57  ls
+   58  git init
+   59  git add .
+   60  git commit -m "test"
+   61  git remote add origin https://RaviAZDevOps@dev.azure.com/RaviAZDevOps/ReplenishmentSample/_git/WOWArticleLocBatch
+   62  clear
+   63  git push -u origin --all
+   64  git config --global credential.canFallBackToInsecureStore true
+   65  git push -u origin --all
+   66  cd
+   67  clear
+   68  ls
+   69  cd Replenishment_Galaxy_Batch
+   70  cd WOWArticleLocBatch/
+   71  clear
+   72  ls
+   73  code pom.xml
+   74  git add .
+   75  git status
+   76  git commit -m "update"
+   77  git push -u origin --all
+   78  cd-
+   79  cd -
+   80  ls
+   81  cd WOWArticleReclassificationDailyBatch
+   82  clear
+   83  ls
+   84  az repos create --name WOWArticleReclassificationDailyBatch --project ReplenishmentSample
+   85  git init
+   86  git add .
+   87  git commit "Base Branch"
+   88  git remote add origin https://RaviAZDevOps@dev.azure.com/RaviAZDevOps/ReplenishmentSample/_git/WOWArticleReclassificationDailyBatch
+   89  git commit "Base Branch"
+   90  git commit -m "Base Branch"
+   91  clear git push -u origin --all
+   92  git push -u origin --all
+   93  git config list
+   94  git config --list
+   95  git config --global --unset credential.helper
+   96  git config --global --user
+   97  clear
+   98  git config --unset credential.helper
+   99  history
+  100  git config --list
+  101  git config --unser user.email
+  102  git config --unset user.email
+  103  cd Replenishment_Galaxy_Batch/
+  104  cd WOWArticleLocBatch/
+  105  git config --unset user.email
+  106  git config --unset user.name
+  107  git config --global --unset credential.helper
+  108  clear
+  109  cd -
+  110  ls
+  111  cd WOWASRExclusionBatch
+  112  clear
+  113  az repos create --name WOWASRExclusionBatch --project ReplenishmentSample
+  114  git init
+  115  git add .
+  116  history
+  117  git config --list
+  118  git config unset all
+  119  git config --unset all
+  120  git config --unset
+  121  git config --list
+  122  git commit -m "Base"
+  123  git remote add origin https://RaviAZDevOps@dev.azure.com/RaviAZDevOps/ReplenishmentSample/_git/WOWASRExclusionBatch
+  124  git push -u origin --all
+  125  ls
+  126  code demo.sh
+  127  cd Replenishment_Galaxy_Batch
+  128  pwd
+  129  clear
+  130  ls
+  131  cd
+  132  ls
+  133  sh demo.sh
+  134  clear
+  135  sh demo.sh
+  136  clear
+  137  sh demo.sh
+  138  clear
+  139  sh demo.sh
+  140  code  azdevopspat.txt
+  141  code demo.sh
+  142  clear
+  143  sh demo.sh
+  144  az devops logout
+  145  sh demo.sh
+  146  clear
+  147  sh demo.sh
+  148  clear
+  149  sh demo.sh
+  150  clear
+  151  sh demo.sh
+  152  clear
+  153  sh demo.sh
+  154  clear
+  155  sh demo.sh
+  156  clear
+  157  sh demo.sh
+  158  clear
+  159  sh demo.sh
+  160  ls
+  161  cd scripts
+  162  ls
+  163  cat new
+  164  cat newscript.sh 
+  165  clear
+  166  cd
+  167  clear
+  168  sh demo.sh
+  169  find . -mindepth 1 -maxdepth 1 -type d -printf "%P\n"
+  170  cd Replenishment_Galaxy_Batch
+  171  find . -mindepth 1 -maxdepth 1 -type d -printf "%P\n"
+  172  cd
+  173  sh demo.sh
+  174  clear
+  175  sh demo.sh
+  176  clear
+  177  cd Replenishment_Galaxy_Batch/
+  178  find $(pwd) -type f
+  179  clear
+  180  cd
+  181  sh demo.sh
+  182  cd Replenishment_Galaxy_Batch/
+  183  find . -mindepth 1 -maxdepth 1 -type d -not -path '*/\.*' | sed 's/^\.\///g' | sort
+  184  cd
+  185  sh demo.sh
+  186  clear
+  187  sh demo.sh
+  188  clear
+  189  sh demo.sh
+  190  find . -maxdepth 1 -type d -exec echo {} \
+  191  find . -maxdepth 1 -type d -exec echo {} 
+  192  find . -maxdepth 1 -type d -exec echo {}\
+  193  find . -maxdepth 1 -type d -exec echo {} \;
+  194  clear
+  195  find . -maxdepth 1 -type d -exec echo {} \;
+  196  sh demo.sh
+  197  clear
+  198  sh demo.sh
+  199  clear
+  200  sh demo.sh
+  201  clear
+  202  sh demo.sh
+  203  clear
+  204  sh demo.sh
+  205  clear
+  206  sh demo.sh
+  207  clear
+  208  sh demo.sh
+  209  clear
+  210  code azrepopat.txt
+  211  code demo.sh
+  212  code azrepopat.txt
+  213  code demo.sh
+  214  sh demo.sh
+  215  cat azrepopat.txt
+  216  clear
+  217  sh demo.sh
+  218  clear
+  219  sh demo.sh
+  220  clear
+  221  cd Replenishment_Galaxy_Batch/
+  222  clear
+  223  ls
+  224  cd WOWArticleReclassificationDailyBatch
+  225  git init
+  226  az devops configure --defaults organization=https://dev.azure.com/RaviAZDevOps
+  227  az repos create --name WOWArticleReclassificationDailyBatch --project ReplenishmentSample
+  228  az devops configure --defaults organization=https://dev.azure.com/RaviAZDevOps
+  229  az repos create --name WOWArticleReclassificationDailyBatch --project ReplenishmentSample
+  230  az login
+  231  az repos create --name WOWArticleReclassificationDailyBatch --project ReplenishmentSample
+  232  az devops configure --defaults organization=https://dev.azure.com/RaviAZDevOps
+  233  az repos create --name WOWArticleReclassificationDailyBatch --project ReplenishmentSample
+  234  az devops login --organization https://dev.azure.com/RaviAZDevOps
+  235  git .init
+  236  git init
+  237  clear
+  238  az repos create --name WOWArticleReclassificationDailyBatch --project ReplenishmentSample
+  239  cd-
+  240  cd -
+  241  ls
+  242  cd WOWDailyProfilesBatch
+  243  az repos create --name WOWDailyProfilesBatch --project ReplenishmentSample
+  244  clear
+  245  git init
+  246  git add .
+  247  git commit -m "Base code"
+  248  git remote add origin https://RaviAZDevOps@dev.azure.com/RaviAZDevOps/ReplenishmentSample/_git/WOWDailyProfilesBatch
+  249  git remote remove origin
+  250  git remote add origin https://RaviAZDevOps@dev.azure.com/RaviAZDevOps/ReplenishmentSample/_git/WOWDailyProfilesBatch
+  251  git push -u origin --all
+  252  git fetch eytcypnjvoemqanxulg7pm5kmeci54ezkwqmhj6nfdbl4pmfszqa
+  253  clear
+  254  git remote add origin https://RaviAZDevOps@dev.azure.com/RaviAZDevOps/ReplenishmentSample/_git/WOWDailyProfilesBatch
+  255  mvn archetype:generate -DarchetypeGroupId=com.microsoft.azure -DarchetypeArtifactId=azure-functions-archetype 
+  256  ls
+  257  cd ravi-function
+  258  ls
+  259  cd src
+  260  ls
+  261  cd main
+  262  ls
+  263  cd java
+  264  ls
+  265  cd com
+  266  ls
+  267  cd ravi
+  268  ls
+  269  code Function.java
+  270  cd
+  271  cd ravi-function/
+  272  mvn clean install
+  273  mvn clean package 
+  274  mvn azure-functions:run
+  275  mvn azure-functions:deploy
+  276  hisotry
+  277  history
+  278  history > commandstodeploy
